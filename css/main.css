@@ -1,1 +1,32 @@
-/*# sourceMappingURL=main.css.map */
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #E8D4D1;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+nav {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #615A59;
+  padding: 15px;
+}
+
+nav p {
+  font-size: 1.5em;
+  padding-left: 30px;
+}
+
+nav .icons {
+  display: flex;
+  gap: 15px;
+}
+
+nav .icons button {
+  background: none;
+  border-style: none;
+}/*# sourceMappingURL=main.css.map */
