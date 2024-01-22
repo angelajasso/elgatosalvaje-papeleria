@@ -15,18 +15,121 @@ nav {
   color: #615A59;
   padding: 15px;
 }
-
 nav p {
   font-size: 1.5em;
   padding-left: 30px;
 }
-
 nav .icons {
   display: flex;
   gap: 15px;
 }
-
 nav .icons button {
   background: none;
   border-style: none;
+}
+
+article {
+  width: auto;
+  color: #615A59;
+  padding-left: 45px;
+  padding-right: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+article .impact-section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  gap: 25px;
+  width: 80%;
+}
+article h1 {
+  font-size: 3em;
+  padding: 0;
+  margin: 0;
+}
+article h3 {
+  font-size: 1.5 em;
+}
+article button {
+  width: 26vw;
+  padding: 20px;
+  background-color: #968683;
+  border-style: none;
+  border-radius: 35px;
+  color: white;
+  font-size: 1em;
+}
+article .image-section {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0 0 50px;
+  gap: 25px;
+  width: 80%;
+}
+article img {
+  width: 100%;
+  height: 350px;
+  border-radius: 19px;
+  background-color: #ffffff;
+}
+
+section {
+  width: auto;
+  height: auto;
+  padding: 60px;
+}
+section h2 {
+  color: #615A59;
+  font-size: 2em;
+}
+section .furniture {
+  padding-bottom: 60px;
+}
+section .furniture h2 {
+  font-weight: 300;
+  padding-bottom: 60px;
+}
+section .furniture .card-section {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evelyn;
+  align-items: center;
+  flex-wrap: wrap;
+  -moz-column-gap: 200px;
+       column-gap: 200px;
+  row-gap: 80px;
+}
+section .furniture .product-card {
+  width: 14vw;
+  background-color: #FFEDE6;
+  color: #615A59;
+  padding: 20px;
+  border-radius: 8px;
+}
+section .furniture .product-card .icon {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 12px;
+}
+section .furniture .product-card .icon svg {
+  width: 28px;
+  height: 28px;
+}
+section .furniture .product-card .product-image {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .furniture .product-card .product-image img {
+  width: 12vw;
+  height: 30vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 6px;
 }/*# sourceMappingURL=main.css.map */
