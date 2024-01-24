@@ -144,3 +144,15 @@ section {
         }
     }
 }
+footer {
+    background-color: $quaternary-color;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    color: white;
+    .social-media {
+        @include flexCenter(row,center ,center );
+        gap: 40px;
+        padding-bottom: 40px;
+    }
+}

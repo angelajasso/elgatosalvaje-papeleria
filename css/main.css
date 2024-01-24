@@ -132,4 +132,20 @@ section .furniture .product-card .product-image img {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 6px;
+}
+
+footer {
+  background-color: #968683;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  color: white;
+}
+footer .social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 40px;
 }/*# sourceMappingURL=main.css.map */
